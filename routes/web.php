@@ -21,3 +21,4 @@ Route::get('/',function(){
 });
 Route::get('register',[RegisterController::class,'register']);
 Route::get('home',[HomeController::class,'home']);
+Route::post('register',[RegisterController::class,'insert'])->name('register.insert');
