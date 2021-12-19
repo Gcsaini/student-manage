@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,5 +16,8 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/',[LoginController::class,'login']);
+Route::get('/',function(){
+    return view('login');
+});
+Route::get('register',[RegisterController::class,'register']);
 Route::get('home',[HomeController::class,'home']);

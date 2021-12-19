@@ -79,7 +79,7 @@
                 <div class="d-flex align-items-center">
                   <button type="submit" class="btn long mr-20">Log In</button>
                   <span class="font-12 d-block"
-                    ><a href="" class="bold">Sign Up</a>, If you
+                    ><a href="{{url('register')}}" class="bold">Sign Up</a>, If you
                     have no account.</span
                   >
                 </div>
