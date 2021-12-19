@@ -20,9 +20,7 @@
       href="{{asset('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.css')}}"/>
     <link rel="stylesheet" href="{{asset('assets/plugins/apex/apexcharts.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
-    <link href="{{asset('ckeditor/samples/css/samples.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css')}}">  </head>
-  <body>
+      <body>
   <div class="offcanvas-overlay"></div>
     <div class="wrapper">
       <header class="header fixed-top d-flex align-content-center flex-wrap">
@@ -94,122 +92,7 @@
                       </div>
                     </li>
                    
-                    <li>
-                      <div class="main-header-message">
-                        <a href="#" class="header-icon" data-toggle="dropdown"
-                          ><img
-                            src="{{asset('assets/img/svg/message-icon.svg')}}"
-                            alt=""
-                            class="svg"
-                        /></a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                          <div
-                            class="
-                              dropdown-header
-                              d-flex
-                              align-items-center
-                              justify-content-between
-                            "
-                          >
-                            <h5>3 Unread messages</h5>
-                            <a href="#" class="text-mute d-inline-block"
-                              >Clear all</a
-                            >
-                          </div>
-                          <div class="dropdown-body">
-                            <a
-                              href="#"
-                              class="
-                                item-single
-                                d-flex
-                                media
-                                align-items-center
-                              "
-                              ><div class="figure">
-                                <img src="{{asset('assets/img/avatar/m1.png')}}" alt="" />
-                                <span class="avatar-status bg-teal"></span>
-                              </div>
-                              <div class="content media-body">
-                                <div class="d-flex align-items-center mb-2">
-                                  <h6 class="name">Sender Name</h6>
-                                  <p class="time">2 min ago</p>
-                                </div>
-                                <p class="main-text">
-                                  Donec dapibus mauris id odio ornare tempus.
-                                  Duis sit amet accumsan justo.
-                                </p>
-                              </div></a
-                            ><a
-                              href="#"
-                              class="
-                                item-single
-                                d-flex
-                                media
-                                align-items-center
-                              "
-                              ><div class="figure">
-                                <img src="{{asset('assets/img/avatar/m2.png')}}" alt="" />
-                                <span class="avatar-status bg-teal"></span>
-                              </div>
-                              <div class="content media-body">
-                                <div class="d-flex align-items-center mb-2">
-                                  <h6 class="name">Tonya Lee</h6>
-                                  <p class="time">2 min ago</p>
-                                </div>
-                                <p class="main-text">
-                                  Donec dapibus mauris id odio ornare tempus.
-                                  Duis sit amet accumsan justo.
-                                </p>
-                              </div></a
-                            ><a
-                              href="#"
-                              class="
-                                item-single
-                                d-flex
-                                media
-                                align-items-center
-                              "
-                              ><div class="figure">
-                                <img src="{{asset('assets/img/avatar/m3.png')}}" alt="" />
-                                <span class="avatar-status bg-teal"></span>
-                              </div>
-                              <div class="content media-body">
-                                <div class="d-flex align-items-center mb-2">
-                                  <h6 class="name">Cathy Nichols</h6>
-                                  <p class="time">2 min ago</p>
-                                </div>
-                                <p class="main-text">
-                                  Donec dapibus mauris id odio ornare tempus.
-                                  Duis sit amet accumsan justo.
-                                </p>
-                              </div></a
-                            ><a
-                              href="#"
-                              class="
-                                item-single
-                                d-flex
-                                media
-                                align-items-center
-                              "
-                              ><div class="figure">
-                                <img src="{{asset('assets/img/avatar/m4.png')}}" alt="" />
-                                <span class="avatar-status bg-teal"></span>
-                              </div>
-                              <div class="content media-body">
-                                <div class="d-flex align-items-center mb-2">
-                                  <h6 class="name">Hubert Griffith</h6>
-                                  <p class="time">2 min ago</p>
-                                </div>
-                                <p class="main-text">
-                                  Donec dapibus mauris id odio ornare tempus.
-                                  Duis sit amet accumsan justo.
-                                </p>
-                              </div></a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </li>
+                    
                     <li>
                       <div class="main-header-notification">
                         <a

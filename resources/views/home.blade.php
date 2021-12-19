@@ -244,48 +244,8 @@
               
             </div>
             <div class="row">
-              <div class="col-xl-4 col-md-8">
-                <div class="card mb-30">
-                  <div class="card-body">
-                    <div
-                      class="d-flex align-items-center justify-content-between"
-                    >
-                      <div class="increase">
-                        <div class="card-title d-flex align-items-end mb-2">
-                          <h2>86<sup>%</sup></h2>
-                          <p class="font-14">Increased</p>
-                        </div>
-                        <h3 class="card-subtitle mb-2">Congratulation!</h3>
-                        <p class="font-16">
-                          You've finished all of your tasks for this week.
-                        </p>
-                      </div>
-                      <div class="congratulation-img">
-                        <img
-                          src="assets/img/media/congratulation-img.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-2 col-md-4 col-sm-6">
-                <div class="card area-chart-box mb-30">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div class="">
-                        <h4 class="mb-1">Income</h4>
-                        <p class="font-14 c3">Increase in Average</p>
-                      </div>
-                      <div class="">
-                        <h2>50<sup>%</sup></h2>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="apex_area-chart" class="chart"></div>
-                </div>
-              </div>
+              
+              
               <div class="col-xl-2 col-md-4 col-sm-6">
                 <div class="card area-chart-box mb-30">
                   <div class="card-body">
